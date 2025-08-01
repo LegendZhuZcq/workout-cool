@@ -39,17 +39,6 @@ export function BottomNavigation() {
       isActive: pathname.includes(paths.programs),
     },
     {
-      id: "premium",
-      label: t("bottom_navigation.premium"),
-      shortLabel: t("bottom_navigation.premium"),
-      mobileLabel: t("bottom_navigation.premium"),
-      href: `/${locale}/premium`,
-      icon: Crown,
-      emoji: "WorkoutCoolRich.png",
-      description: t("bottom_navigation.premium_tooltip"),
-      isActive: pathname.includes("/premium"),
-    },
-    {
       id: "tools",
       label: t("bottom_navigation.tools"),
       shortLabel: t("bottom_navigation.tools"),
